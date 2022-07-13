@@ -21,7 +21,7 @@ html {
 
 body { 
     background-color: var(--VeryDarkBlue);
-    width: 37.5rem;
+    width: 36rem;
     color: var(--LightGrey);
 }
 
@@ -161,6 +161,15 @@ button:hover {
     z-index: 50;
 }
 
+.close {
+    position: absolute;
+    transform: translate(27rem, -1.8rem);
+    cursor: pointer;
+    background-color: var(--orange);
+    padding: 1.3rem;
+    border-radius: 50%;
+}
+
 @media (min-width: 768px) {
 
     body { 
@@ -197,6 +206,15 @@ button:hover {
         justify-content: center;
         padding: 0;
     }
+
+    .close {
+        position: absolute;
+        transform: translate(16.5rem, -15.5rem);
+        cursor: pointer;
+        background-color: var(--orange);
+        padding: 1.3rem;
+        border-radius: 50%;
+    }
 }
 
 footer { 
@@ -216,4 +234,11 @@ footer a, .autor:visited{
 .autor:hover{
     background-color: var(--orange);
     color: var(--white);
+}
+
+.close img {
+    max-width: 100%;
+    background-color: var(--LightGrey), .9;
+    padding: 0rem;
+    margin: 0;
 }
