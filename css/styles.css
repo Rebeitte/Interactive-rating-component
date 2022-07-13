@@ -21,7 +21,7 @@ html {
 
 body { 
     background-color: var(--VeryDarkBlue);
-    width: 36rem;
+    width: 37rem;
     color: var(--LightGrey);
 }
 
@@ -150,6 +150,7 @@ button:hover {
     padding: 2rem;
     background-color: var( --DarkBlue);
     border-radius: 1.9rem;
+    position: relative;
 }
 
 .attribution { 
@@ -163,7 +164,7 @@ button:hover {
 
 .close {
     position: absolute;
-    transform: translate(27rem, -1.8rem);
+    transform: translate(26rem, -1.5rem);
     cursor: pointer;
     background-color: var(--orange);
     padding: 1.3rem;
@@ -241,4 +242,8 @@ footer a, .autor:visited{
     background-color: var(--LightGrey), .9;
     padding: 0rem;
     margin: 0;
+}
+
+.send_card {
+    position: absolute;
 }
